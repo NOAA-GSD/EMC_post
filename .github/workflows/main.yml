@@ -12,7 +12,7 @@ jobs:
 
     - name: install
       run: |
-        sudo apt-get install libmpich-dev libnetcdf libnetcdff
+        sudo apt-get install libmpich-dev libnetcdf-dev libnetcdff-dev
 
     - name: checkout-bacio
       uses: actions/checkout@v2
