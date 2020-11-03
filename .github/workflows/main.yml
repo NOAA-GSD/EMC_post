@@ -10,9 +10,9 @@ jobs:
 
     steps:
 
-    - name: install-mpi
+    - name: install
       run: |
-        sudo apt-get install libmpich-dev
+        sudo apt-get install libmpich-dev libnetcdf libnetcdff
 
     - name: checkout-bacio
       uses: actions/checkout@v2
